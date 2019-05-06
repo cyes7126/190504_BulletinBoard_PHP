@@ -1,0 +1,35 @@
+#header{
+    background-color: cadetblue;
+    color: aliceblue;
+    font-weight: bolder;
+    padding: 1rem;
+}
+*{
+    margin: 0 auto;
+}
+ul {
+     list-style: none;
+ }
+
+ li {
+     margin: 0.5rem;
+ }
+
+ input {
+     width: 12rem;
+     height: 2rem;
+ }
+
+ textarea {
+     width: 12rem;
+ }
+table{
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    width: 35rem;
+    text-align: center;
+}
+th{
+   background-color:darkgray;
+    color: white;
+}
