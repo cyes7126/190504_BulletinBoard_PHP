@@ -16,13 +16,8 @@
 
 
         <?php
-                define("DB_SERVER", "localhost");
-                define("DB_USER", "root");
-                define("DB_PASSWORD", "111111");
-                define("DB_DATABASE", "php");
-                define("DB_PORT", 3307);
-
-                $conn = mysqli_connect(DB_SERVER , DB_USER, DB_PASSWORD, DB_DATABASE,DB_PORT);
+                require('database.php');
+                $conn = Database::con();
                 
                 $sql = "SELECT * FROM board WHERE id =".$_GET['no'];
                 $result = mysqli_query($conn, $sql);
